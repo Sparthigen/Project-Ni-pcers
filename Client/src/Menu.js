@@ -16,10 +16,7 @@ const Menu = () => {
           </NavLink>
         </div>
 
-        <div className="topnav-right">
-          <NavLink to="/ContactUs">Contact Us</NavLink>
-        </div>
-
+   
         <div className="topnav-right">
           <NavLink to="/SignIn">Sign In</NavLink>
         </div>
@@ -28,14 +25,12 @@ const Menu = () => {
           <NavLink to="/SignUp">Sign Up</NavLink>
         </div>
 
-        <div className="topnav-right">
+        {/* <div className="topnav-right">
           <NavLink to="/Niépcers">Niépcers</NavLink>
         </div>
-      
-
-      
+       */}
       </div>
-     
+      
     </>
   );
 };

@@ -56,10 +56,7 @@ text-decoration: none;
 
 
 
-.UserList{
-  text-decoration: none;
-color: white;
-}
+
 
 
 
@@ -70,7 +67,7 @@ color: white;
 color: #f2f2f2;
   text-align: center;
   margin-top: 100px;
-  padding: 2px;
+  padding: 40px;
 }
 
 
@@ -79,7 +76,7 @@ color: #f2f2f2;
 
 .topnav {
   position: relative;
-  background-color: #333;
+  background-color: rgb(39, 37, 37);
   overflow: hidden;
 }
 
@@ -150,3 +147,52 @@ color: #f2f2f2;
   opacity: 100%;
 }
 
+.signIn{
+  color: #f2f2f2;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+background-color: rgba(0, 0, 0, 0.884);
+ ;
+  padding: 40px;
+  border-radius: 9px;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18em
+
+}
+
+button{
+
+  margin-top: 25px; ;
+  border-radius: 3px;
+  color: #f2f2f2;
+}
+
+input{
+
+margin: 10px;
+  border-radius: 5px;
+
+}
+
+.signUp{
+
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-color: rgba(0, 0, 0, 0.884);
+   ;
+    padding: 40px;
+    border-radius: 9px;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19em
+  
+
+}
